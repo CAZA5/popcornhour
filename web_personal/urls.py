@@ -24,9 +24,8 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', core_views.home, name='home'),
-    path("about", core_views.about, name = "about"),
-    path("portafolio", portafolio_views.portafolio, name = "portafolio"),
-    path("contacto", core_views.contacto, name = "contactos")
+    path("peliculas", portafolio_views.portafolio, name = "peliculas"),
+ 
 ]
 
 #imagenes
